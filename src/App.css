@@ -1,0 +1,106 @@
+/* Brown-themed background */
+body {
+  background-color: #f5e1c8; /* Light brown */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  flex-direction: column; /* Stack heading and form vertically */
+}
+
+/* Heading styling */
+h1 {
+  padding: 0px 0px 700px 0px;
+  width: 100%;
+
+}
+
+/* Centered profile form container */
+.profile-container {
+  background-color: #8d6e63; /* Medium brown */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+/* Upload button */
+.upload-button {
+  background-color: #6d4c41; /* Dark brown */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upload-button:hover {
+  background-color: #5d4037; /* Slightly darker */
+}
+
+/* Profile form fields */
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #a1887f; /* Light brown */
+}
+
+.profile-field label {
+  font-size: 14px;
+  flex: 1;
+}
+
+.profile-field input {
+  flex: 2;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+/* Edit icon */
+.edit-icon {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Save button */
+.save-button {
+  background-color: #5d4037; /* Dark brown */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.save-button:hover {
+  background-color: #4e342e; /* Slightly darker */
+}

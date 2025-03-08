@@ -1,0 +1,80 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+    color: white;
+    height:100px;
+    position: fixed;  /* Fix navbar at the top */
+    top: 0;  /* Stick to the top */
+    left: 0;
+    width: 100%;  /* Full width */
+    z-index: 1000; /* Ensures navbar stays above other content */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+  
+  /* Title Styling */
+  .navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-right: auto; /* Pushes the title to the left side */
+  }
+  
+  /* To prevent content from being hidden behind the fixed navbar */
+  body {
+    padding-top: 70px; /* Adjust this value based on navbar height */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 15px; /* Add padding to the right side */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff4d4d;
+  }
+  
+  /* Sign In and Sign Up Links */
+  .nav-links li .auth-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .auth-link:hover {
+    color: #ff4d4d;
+  }
+  
+  /* Button Hover Effect */
+  .btn:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 0; /* Adjust padding for responsive layout */
+    }
+  }

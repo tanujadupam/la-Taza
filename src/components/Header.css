@@ -1,0 +1,44 @@
+/* src/styles/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #222;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ff4d4d;
+}
+
+/* To prevent content from being hidden behind the fixed navbar */
+body {
+  padding-top: 70px;
+}

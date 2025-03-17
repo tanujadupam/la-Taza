@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Align items to the top */
+  padding: 2rem;
+  background-color: #282c34;
+  color: #ffffff;
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width */
+  margin: 0 auto; /* Center the footer */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.quick-links, .follow-us, .subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quick-links ul, .follow-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li, .follow-us li {
+  margin: 0.5rem 0;
+}
+
+.quick-links a, .follow-us a {
+  color: #f13d21;
+  text-decoration: none;
+}
+
+.subscription form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscription input {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 0.5rem;
+}
+
+.subscription button {
+  padding: 0.5rem 1rem;
+  background-color: #f13d21;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.subscription button:hover {
+  background-color: #f13d21;
+}

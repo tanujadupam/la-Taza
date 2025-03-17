@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.LandingPage {
+  text-align: center;
+}
+
+.main-header {
+  position: relative;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://th.bing.com/th/id/R.a4fabed19121cd6a562f0ad6840ebee1?rik=rka88Z0azdlJ3w&riu=http%3a%2f%2fsailorsbeat.com%2fwp-content%2fuploads%2f2017%2f02%2fCoffe-Sun-Edited.gif&ehk=WrM7DPYP30T3qmvmcKscKyDjtTQH9N%2bKGlbsxpdFxCs%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.header-content {
+  z-index: 1;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust gap between feature items as needed */
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(33.33% - 40px); /* Adjust width as needed */
+  box-sizing: border-box;
+}
+/* In your external CSS file */
+p {
+  text-align: center;
+}
+
+.feature-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+.book-table-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.book-table-form label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.book-table-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.book-table-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.book-table-form button:hover {
+  background-color: #555;
+}
+.book-table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.book-table-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.book-table-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.book-table-form label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.book-table-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.book-table-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-table-form button:hover {
+  background-color: #555;
+}
+.book-table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-table-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-table-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-table-form label {
+  margin-bottom: 15px;
+  width: 100%;
+  font-weight: bold;
+  color: #333;
+}
+
+.book-table-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-table-form button {
+  padding: 12px 25px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.book-table-form button:hover {
+  background-color: #555;
+}
+
+#book-table h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img, .container {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+.explore-features-btn {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-features-btn:hover {
+  background-color: #d32f2f;
+}

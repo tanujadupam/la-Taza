@@ -28,7 +28,7 @@ const Profile = () => {
 
   const handleDeleteProfile = async () => {
     try {
-      await axios.delete(`http://localhost:3000/users {user.id}`); // Adjust the endpoint as needed
+      await axios.delete(`http://localhost:3000/users/${user.id}`); // Adjust the endpoint as needed
       setUser(null);
       setMessage('Profile deleted successfully.');
     } catch (error) {

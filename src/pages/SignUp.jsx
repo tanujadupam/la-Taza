@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
+=======
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
 import './SignUp.css';
 
 const Signup = () => {
@@ -19,13 +22,17 @@ const Signup = () => {
 
   const [step, setStep] = useState(0);
   const [message, setMessage] = useState('');
+<<<<<<< HEAD
   const navigate = useNavigate();
+=======
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+<<<<<<< HEAD
   const nextStep = () => {
     if (step === 0) {
       if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone) {
@@ -46,16 +53,24 @@ const Signup = () => {
     setMessage('');
     setStep((prev) => prev - 1);
   };
+=======
+  const nextStep = () => setStep((prev) => prev + 1);
+  const prevStep = () => setStep((prev) => prev - 1);
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:3000/users', formData);
       if (response.status === 201) {
+<<<<<<< HEAD
         setMessage('Signup successful! Redirecting to sign-in page...');
         setTimeout(() => {
           navigate('/signin');
         }, 2000); // Redirect after 2 seconds
+=======
+        setMessage('Signup successful! Your data is stored.');
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
       } else {
         setMessage('Failed to signup.');
       }
@@ -117,4 +132,8 @@ const Signup = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Signup;
+=======
+export default Signup;
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87

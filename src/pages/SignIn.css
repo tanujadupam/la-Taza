@@ -32,7 +32,11 @@
     padding: 10px 20px;
     font-size: 1rem;
     color: white;
+<<<<<<< HEAD
     background: #f44336;
+=======
+    background: #007bff;
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -40,6 +44,10 @@
   }
   
   .signin-container button:hover {
+<<<<<<< HEAD
     background: #f44336;
+=======
+    background: #0056b3;
+>>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
   }
   

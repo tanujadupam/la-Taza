@@ -1,5 +1,4 @@
 .profile-container {
-<<<<<<< HEAD
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
@@ -90,41 +89,3 @@
 .edit-icon:hover {
   color: #f44336;
 }
-=======
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .profile-container h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .profile-container p {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .profile-container button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: white;
-    background: #dc3545;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  .profile-container button:hover {
-    background: #c82333;
-  }
-  
->>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87

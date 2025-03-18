@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Profile.css';
@@ -86,23 +85,11 @@ const Profile = () => {
         </div>
       );
     }
-=======
-import React from 'react';
-import './Profile.css';
-
-const Profile = () => {
-  const user = JSON.parse(localStorage.getItem('user'));
-
-  const handleDeleteProfile = () => {
-    localStorage.removeItem('user');
-    window.location.reload();
->>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
   };
 
   return (
     <div className="profile-container">
       <h2>Profile</h2>
-<<<<<<< HEAD
       {message && <p>{message}</p>}
       {user ? (
         <div>
@@ -120,16 +107,8 @@ const Profile = () => {
       ) : (
         <p>No user data available.</p>
       )}
-=======
-      <p>Username: {user?.username}</p>
-      <button onClick={handleDeleteProfile}>Delete Profile</button>
->>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
     </div>
   );
 };
 
-<<<<<<< HEAD
 export default Profile;
-=======
-export default Profile;
->>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87

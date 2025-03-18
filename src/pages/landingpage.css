@@ -24,7 +24,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://static.vecteezy.com/system/resources/previews/028/793/425/non_2x/coffee-bliss-savoring-the-aromatic-symphony-of-splashing-beans-generative-ai-free-photo.jpg') no-repeat center center/cover;
+  background: url('https://th.bing.com/th/id/R.a4fabed19121cd6a562f0ad6840ebee1?rik=rka88Z0azdlJ3w&riu=http%3a%2f%2fsailorsbeat.com%2fwp-content%2fuploads%2f2017%2f02%2fCoffe-Sun-Edited.gif&ehk=WrM7DPYP30T3qmvmcKscKyDjtTQH9N%2bKGlbsxpdFxCs%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
   z-index: -1;
 }
 
@@ -54,7 +54,7 @@ section {
   width: calc(33.33% - 40px); /* Adjust width as needed */
   box-sizing: border-box;
 }
-/* In your external CSS file */
+
 p {
   text-align: center;
 }
@@ -71,6 +71,7 @@ footer {
   background: #333;
   color: white;
 }
+
 .book-table-form {
   display: flex;
   flex-direction: column;
@@ -101,6 +102,7 @@ footer {
 .book-table-form button:hover {
   background-color: #555;
 }
+
 .book-table-container {
   display: flex;
   align-items: center;
@@ -150,6 +152,7 @@ footer {
 .book-table-form button:hover {
   background-color: #555;
 }
+
 .book-table-container {
   display: flex;
   align-items: center;
@@ -219,6 +222,7 @@ footer {
   margin-bottom: 20px;
   color: #333;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -235,6 +239,7 @@ img, .container {
   width: 100%;
   padding: 10px;
 }
+
 .explore-features-btn {
   padding: 10px 20px;
   background-color: #f44336;

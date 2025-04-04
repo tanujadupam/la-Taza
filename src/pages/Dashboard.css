@@ -1,3 +1,4 @@
+/* General Container */
 .container {
   display: flex;
   height: 100vh;
@@ -7,7 +8,7 @@
 
 /* Sidebar Styles */
 .sidebar {
-  width: 250px;
+  width: 200px; /* Reduced the width of the sidebar */
   background: #8b4513;
   color: white;
   padding: 20px;
@@ -43,7 +44,7 @@
 
 /* Main Content */
 .mainContent {
-  flex: 1;
+  flex: 1; /* Ensures the main content takes up the remaining space */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +52,8 @@
   background: #ffffff;
   padding: 20px;
   text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dashboardTitle {

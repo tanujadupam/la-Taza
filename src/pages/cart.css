@@ -1,0 +1,167 @@
+/* General Styles for the Cart Container */
+.cart-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Empty Cart Message */
+  .cart-container p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Cart Items List */
+  .cart-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-container li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Item Details */
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-details h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .cart-item-details p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Quantity Controls */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .quantity-controls button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-controls button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .quantity-controls span {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Remove Button */
+  .remove-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Cart Actions */
+  .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-to-menu-btn,
+  .proceed-to-payment-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-menu-btn {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .back-to-menu-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .proceed-to-payment-btn {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .proceed-to-payment-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cart-container li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-actions {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .back-to-menu-btn,
+    .proceed-to-payment-btn {
+      width: 100%;
+    }
+  }
+  .cart-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the icon and the title */
+    margin-bottom: 20px;
+  }
+  
+  .cart-icon {
+    font-size: 2rem; /* Adjust the size of the cart icon */
+    color: #8b4513; /* Set the color of the cart icon */
+  }

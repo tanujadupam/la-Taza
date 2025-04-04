@@ -1,0 +1,129 @@
+/* Container Styling */
+.reservation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styling */
+  .reservation-container h2 {
+    margin-bottom: 25px;
+    color: #8b4513;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Form Styling */
+  .reservation-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .reservation-container label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .reservation-container input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .reservation-container input:focus {
+    border-color: #8b4513;
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.5);
+  }
+  
+  /* Button Styling */
+  .reservation-container button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .reservation-container button:hover {
+    background-color: #6a3a1a;
+    transform: scale(1.05);
+  }
+  
+  /* Success Message Styling */
+  .success-message {
+    color: #28a745;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .reservation-container {
+      padding: 20px;
+    }
+  
+    .reservation-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .reservation-container input {
+      font-size: 0.9rem;
+    }
+  
+    .reservation-container button {
+      font-size: 0.9rem;
+    }
+    .reservation-buttons {
+        display: flex;
+        justify-content: space-between; /* Add space between buttons */
+        gap: 10px; /* Add a gap between the buttons */
+      }
+      
+      .cancel-btn,
+      .confirm-btn {
+        flex: 1; /* Ensure buttons are of equal width */
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+      
+      .cancel-btn {
+        background-color: #d9534f;
+        color: white;
+      }
+      
+      .cancel-btn:hover {
+        background-color: #c9302c;
+        transform: scale(1.05);
+      }
+      
+      .confirm-btn {
+        background-color: #5cb85c;
+        color: white;
+      }
+      
+      .confirm-btn:hover {
+        background-color: #4cae4c;
+        transform: scale(1.05);
+      }
+  }

@@ -1,118 +1,84 @@
 .footer {
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-around;
+  justify-content: space-between; /* Space between sections */
   align-items: flex-start; /* Align items to the top */
-  padding: 2rem;
-  background-color: #282c34;
-  color: #ffffff;
-  width: 100%;
-  max-width: 1200px; /* Set a maximum width */
-  margin: 0 auto; /* Center the footer */
-  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  padding: 2rem 5rem; /* Add padding for spacing */
+  background-color: #282c34; /* Dark background */
+  color: #ffffff; /* White text color */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width/height */
 }
 
 .quick-links, .follow-us, .subscription {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the left */
+  flex: 1; /* Equal width for all sections */
+  margin: 0 1rem; /* Add spacing between sections */
 }
 
 .quick-links ul, .follow-us ul {
-  list-style: none;
+  list-style: none; /* Remove bullet points */
   padding: 0;
   margin: 0;
 }
 
 .quick-links li, .follow-us li {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0; /* Add spacing between list items */
 }
 
 .quick-links a, .follow-us a {
-  color: #f13d21;
-  text-decoration: none;
+  color: #f13d21; /* Highlighted link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+.quick-links a:hover, .follow-us a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
 
 .subscription form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /* Stack input and button */
+  align-items: flex-start; /* Align to the left */
 }
 
 .subscription input {
   padding: 0.5rem;
   margin-bottom: 0.5rem;
-  border: 1px solid #cccccc;
-  border-radius: 0.5rem;
+  border: 1px solid #cccccc; /* Light border */
+  border-radius: 0.5rem; /* Rounded corners */
+  width: 100%; /* Full width */
+  max-width: 250px; /* Limit input width */
 }
 
 .subscription button {
   padding: 0.5rem 1rem;
-  background-color: #f13d21;
-  color: #ffffff;
+  background-color: #f13d21; /* Button background color */
+  color: #ffffff; /* Button text color */
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem; /* Rounded corners */
   cursor: pointer;
+  font-size: 0.9rem; /* Adjust font size */
 }
 
 .subscription button:hover {
-  background-color: #f13d21;
-}
-=======
-  justify-content: space-between; /* Evenly distributes content */
-  align-items: flex-start; /* Aligns content to the top */
-  padding: 2rem 5rem; /* Increase left & right padding */
-  background-color: #282c34;
-  color: #ffffff;
-  max-width: 100%; /* Prevents horizontal scrolling */
-  box-sizing: border-box;
+  background-color: #d12f1a; /* Darker red on hover */
 }
 
-  
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center align sections */
+    padding: 2rem 1rem; /* Reduce padding */
+  }
+
   .quick-links, .follow-us, .subscription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center align items */
+    margin: 1rem 0; /* Add spacing between sections */
   }
-  
-  .quick-links ul, .follow-us ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .quick-links li, .follow-us li {
-    margin: 0.5rem 0;
-  }
-  
-  .quick-links a, .follow-us a {
-    color: #f13d21;
-    text-decoration: none;
-  }
-  
-  .subscription form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+
   .subscription input {
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    border: 1px solid #cccccc;
-    border-radius: 0.5rem;
+    max-width: 100%; /* Full width on smaller screens */
   }
-  
-  .subscription button {
-    padding: 0.5rem 1rem;
-    background-color: #f13d21;
-    color: #ffffff;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .subscription button:hover {
-    background-color: #f13d21;
-  }
->>>>>>> abd8dee31542bbbbd873954ce7c924a0b7329b87
+}

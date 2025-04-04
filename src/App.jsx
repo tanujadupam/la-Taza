@@ -9,6 +9,7 @@ import Menu from './pages/Menu';
 import Cart from './pages/Cart';
 import Payment from './pages/Payment';
 import MyOrders from './pages/MyOrders';
+import Offer from './pages/Offer';
 import AboutUs from './pages/AboutUs';
 import Reservation from './pages/Reservation'; // Import Reservation component
 import Header from './components/Header';
@@ -41,6 +42,7 @@ const App = () => {
         <Route path="/payment" element={<Payment cart={cart} setCart={setCart} setOrders={setOrders} />} />
         <Route path="/myorders" element={<MyOrders orders={orders} />} />
         <Route path="/reservations" element={<Reservation />} /> {/* Add Reservation route */}
+        <Route path="/offer" element={<Offer/>} /> 
       </Routes>
       <FooterWrapper />
     </Router>

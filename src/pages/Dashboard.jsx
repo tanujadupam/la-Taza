@@ -17,11 +17,11 @@ const Dashboard = () => {
       <div className="sidebar">
         <h2 className="logo">LA_TAZA Dashboard</h2>
         <ul className="navList">
-          <li className="navItem">Orders</li>
+          <li className="navItem">Offers</li>
           <li className="navItem">
             <Link to="/reservations">Reservations</Link> {/* Link to Reservations */}
           </li>
-          <li className="navItem">Customers</li>
+          <li className="navItem">Reviews</li>
           <li className="navItem">
             <Link to="/menu">Menu</Link>
           </li>
